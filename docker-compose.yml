@@ -11,7 +11,7 @@ services:
     volumes:
     - .:/usr/src/app/${BOT_NAME:-tg_bot}
     command: python3 -m bot
-    restart: always
+#    restart: always
     env_file:
       - ".env"
     networks:
